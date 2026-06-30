@@ -1,0 +1,254 @@
+﻿* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f4f4;
+    color: #222;
+    line-height: 1.5;
+}
+
+a {
+    color: #003399;
+    text-decoration: underline;
+}
+
+.site-shell {
+    width: 960px;
+    max-width: calc(100% - 24px);
+    margin: 12px auto;
+    padding: 8px;
+    background: #fff;
+    border: 1px solid #bbb;
+}
+
+.site-header {
+    padding: 10px;
+    border: 1px solid #999;
+    background: #eee;
+}
+
+.brand {
+    display: table;
+    width: 100%;
+}
+
+.brand-mark {
+    display: table-cell;
+    width: 80px;
+    vertical-align: middle;
+    padding-right: 10px;
+}
+
+.brand-mark span {
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    border: 1px solid #999;
+    background: #fff;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.brand-copy {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.brand-copy h1 {
+    font-size: 28px;
+    margin-bottom: 4px;
+}
+
+.brand-copy p {
+    font-size: 14px;
+}
+
+.eyebrow,
+.section-kicker,
+.card-tag,
+.spotlight-label {
+    font-size: 12px;
+    font-weight: bold;
+    color: #555;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+
+.header-meta {
+    margin-top: 8px;
+    padding-top: 8px;
+    border-top: 1px dotted #bbb;
+    text-align: right;
+    font-size: 13px;
+}
+
+.header-action,
+.primary-button,
+.secondary-button,
+.info-card a {
+    display: inline-block;
+    padding: 7px 12px;
+    border: 1px solid #666;
+    background: #f9f9f9;
+    color: #222;
+    text-decoration: none;
+}
+
+.site-nav {
+    margin-top: 10px;
+    padding: 8px;
+    border: 1px solid #bbb;
+    background: #f8f8f8;
+}
+
+.nav-link {
+    display: inline-block;
+    margin: 4px 8px 4px 0;
+    padding: 6px 10px;
+    border: 1px solid #999;
+    background: #fff;
+}
+
+.nav-link.active {
+    background: #dfe8f7;
+    font-weight: bold;
+}
+
+.page-content {
+    margin-top: 10px;
+}
+
+.hero,
+.split-layout,
+.card-grid,
+.info-columns {
+    display: block;
+}
+
+.hero > div,
+.spotlight-card,
+.content-panel,
+.info-card {
+    margin-bottom: 10px;
+    padding: 12px;
+    border: 1px solid #bbb;
+    background: #fff;
+}
+
+.hero h2,
+.content-panel h2,
+.info-card h3 {
+    margin: 6px 0 8px;
+    color: #111;
+}
+
+.hero h2 {
+    font-size: 28px;
+}
+
+.lead-copy,
+.content-panel p,
+.info-card p,
+.step-list p,
+.fact-list span {
+    color: #444;
+}
+
+.cta-row {
+    margin-top: 14px;
+}
+
+.cta-row a {
+    margin-right: 6px;
+    margin-top: 6px;
+}
+
+.fact-list,
+.step-list {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.fact-list li,
+.step-list li {
+    margin-bottom: 8px;
+}
+
+.fact-list strong,
+.step-list strong {
+    display: block;
+    margin-bottom: 2px;
+}
+
+.card-grid .info-card,
+.split-layout .content-panel {
+    margin-bottom: 10px;
+}
+
+.info-card a,
+.primary-button,
+.secondary-button,
+.header-action {
+    margin-top: 10px;
+}
+
+.accent-panel {
+    background: #fefbf2;
+}
+
+.step-list li {
+    padding: 6px 0;
+}
+
+.step-list span {
+    display: inline-block;
+    min-width: 20px;
+    margin-right: 6px;
+    font-weight: bold;
+}
+
+.info-box {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: #fafafa;
+}
+
+.info-box ul {
+    padding-left: 18px;
+}
+
+@media (max-width: 700px) {
+    .site-shell {
+        width: calc(100% - 12px);
+        margin: 6px auto;
+    }
+
+    .brand,
+    .brand-copy,
+    .header-meta {
+        display: block;
+        text-align: left;
+    }
+
+    .brand-mark {
+        display: block;
+        padding-right: 0;
+        margin-bottom: 8px;
+    }
+
+    .nav-link,
+    .header-action,
+    .primary-button,
+    .secondary-button,
+    .info-card a {
+        display: block;
+        width: 100%;
+    }
+}
